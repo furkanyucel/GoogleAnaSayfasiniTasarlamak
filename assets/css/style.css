@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+}
+
+.container{}
+.container .row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Google 1998 Logo Starter */
+.container .row .header{}
+.container .row .header img{}
+/* Google 1998 Logo Finish */
+
+
+/* Search Starter */
+.container .row .search{
+  width: calc(100% - 60px);
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2px;
+}
+.container .row .search p{}
+.container .row .search input{
+  width: 25%;
+  padding: 0.2em;
+  outline: none;
+}
+.container .row .search .buttons{}
+.container .row .search .buttons button:first-child{
+  padding: 0.2em 0.6em;
+}
+.container .row .search .buttons button:last-child{
+  padding: 0.2em 0.6em;
+}
+/* Search Finish */
+
+
+/* Footer Starter */
+.container .row .footer{
+  margin-top: 0.1em;
+  width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.container .row .footer .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* box starter */
+.container .row .footer .box{
+  width: 100%;
+  height: 75px;
+  margin-top: 0.2em;
+}
+/* box finish */
+
+
+/* box 1 starter */
+.container .row .footer .box .box1{
+  /* width: 110%; */
+  width: calc(100% - 20%);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7EE5DA;
+}
+.container .row .footer .box .box1 p{}
+.container .row .footer .box .box1 a{
+  font-size: 1.1em;
+}
+/* box 1 finish */
+
+
+/* box 2 starter */
+.container .row .footer .box .box2{
+  /* width: 50%; */
+  width: calc(100% - 65%);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #70CCC2;
+  margin: 0 0.2em;
+}
+.container .row .footer .box .box2 p{}
+.container .row .footer .box .box2 a{
+  font-size: 0.9em;
+}
+/* box 2 finish */
+
+
+/* box 3 starter */
+.container .row .footer .box .box3{
+  /* width: 120%; */
+  width: calc(100% - 8%);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #62B3AA;
+}
+.container .row .footer .box .box3 p{}
+.container .row .footer .box .box3 input{
+  width: 40%;
+  padding: 0.2em;
+  outline: none;
+}
+.container .row .footer .box .box3 div{
+  display: flex;
+}
+.container .row .footer .box .box3 div button{}
+.container .row .footer .box .box3 div a{
+  margin-left: 0.8em;
+}
+/* box 3 finish */
+
+
+/* bottom footer starter */
+.container .row .footer .bottomFooter{
+  text-align: center;
+  margin-top: 1em;
+}
+.container .row .footer .bottomFooter p{
+  font-size: 0.8em;
+}
+/* bottom footer finish */
+
+/* Footer Finish */
